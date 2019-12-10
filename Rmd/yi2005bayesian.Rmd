@@ -1,0 +1,22 @@
+---
+title: '@yi2005bayesian'
+author: "Frederick J. Boehm"
+date: "12/10/2019"
+output: github_document
+params:
+  lastmod: !r lubridate::now()
+---
+
+Last modified: `r params$lastmod`.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Model
+
+$$y = \mu + X\Gamma\beta + \epsilon$$
+
+$\Gamma$ contains only zeroes and ones, to indicate which markers affect the trait. 
+
