@@ -1,0 +1,46 @@
+---
+title: '@wu2004optimal'
+author: "Frederick J. Boehm"
+date: "12/9/2019"
+output: github_document
+params:
+  lastmod: !r lubridate::now()
+---
+
+Last modified: `r params$lastmod`.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Model 
+
+$$y = X\beta + \sum_{j = 1}^{n_{qtl}}Q_jC_ja_j + \epsilon$$
+
+
+
+## Sketch of MCMC sampling
+
+- scalar MH procedure
+
+1. update the number of alleles at each QTL
+1. Update the allelic configuration $C_j$ at each QTL conditional on its number of alleles $l$
+1. Update QTL allele effects variance for each QTL
+1. Update allele effects $a_j$ at each QTL
+1. Update QTL position $\lambda_j$ and QTL genotypes $Q_j$ for each QTL
+1. Update family means $\beta_j$
+1. Update residual variance $\sigma^2_e$
+
+*Note that the number of QTL is fixed*. @sillanpaa1998bayesian is one 
+work that esimates the number of QTL, too.
+
+## Questions
+
+Can their use of multiple families somehow be translated into using DO and CC?? 
+
+How can we adapt this procedure to include estimation of the number of QTL?
+
+What are alternatives to MCMC sampling? 
+
+
+
