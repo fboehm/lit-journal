@@ -3,6 +3,7 @@ title: '@yi2005bayesian'
 author: "Frederick J. Boehm"
 date: "12/10/2019"
 output: github_document
+bibliography: lit.bib
 params:
   lastmod: !r lubridate::now()
 ---
@@ -18,5 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 $$y = \mu + X\Gamma\beta + \epsilon$$
 
-$\Gamma$ contains only zeroes and ones, to indicate which markers affect the trait. 
+$\Gamma$ contains only zeroes and ones, to indicate 
+which genomic positions affect the trait. 
+
 
