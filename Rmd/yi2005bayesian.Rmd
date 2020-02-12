@@ -25,7 +25,7 @@ can only occur at the $H$ loci.
 
 For example, we might use the marker positions (with or without intermediate positions) as the loci. 
 
-@yi2005bayes focus on at most $L$ loci, where $L << H$.
+@yi2005bayesian focus on at most $L$ loci, where $L << H$.
 
 ### Choosing $L$, upper bound on the number of QTL.
 
@@ -42,6 +42,11 @@ $\gamma$ is an indicator vector of length $H$. The $i^{th}$ entry is 1 if the $i
 $$p(\gamma) = \prod_j \left(w_j^{\gamma_j}(1 - w_j)^{1-\gamma_j} \right)$$
 
 where $w_j = w_m$ or $w_j = w_e$, depending on whether it's a main effect or an epistatic effect. $w_m$ and $w_e$ are fixed hyperparameters. They say in the discussion section that one might put priors on them, too.
+
+## Questions
+
+1. If I'm having difficulty with mixing and convergence due the reversible jump step in @jannink2003estimating, might I use this approach instead??
+What would that look like?
 
 
 
