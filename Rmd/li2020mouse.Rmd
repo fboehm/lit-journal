@@ -1,0 +1,19 @@
+---
+title: '@li2020mouse'
+author: "Frederick J. Boehm"
+date: "2/16/2020"
+output: html_document
+bibliography: lit.bib
+params:
+  lastmod: !r paste0(lubridate::now(), " (", Sys.timezone(), ")")
+---
+
+(Last modified: `r params$lastmod`.)
+
+## Overview
+
+Mouse as the premiere model organism for human biomedical research
+
+Strong arguments supporting use of mice as models for human disease
+
+
