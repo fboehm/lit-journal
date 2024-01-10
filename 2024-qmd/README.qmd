@@ -1,0 +1,10 @@
+---
+title: README
+format: gfm
+---
+
+## Statistics topics to read about
+
+- [ ] Case control matching (including Paul Rosenbaum's work)
+
+
