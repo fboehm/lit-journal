@@ -1,0 +1,11 @@
+---
+format: gfm
+bibliography: refs.bib
+---
+
+## January 19, 2024
+
+https://www-cambridge-org.proxy.lib.umich.edu/highereducation/books/inference-and-learning-from-data/A48B26F6011D3591DD0F2D2FE10FD092#contents
+
+@sayed2022inference - I want to read volume 1 in 2024.
+
